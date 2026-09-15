@@ -1,0 +1,21 @@
+Query:
+1) khách hàng ở độ tuổi nào thì tập trung mua loại hàng nào(
+12-20: vị thành niên
+20-40: thành niên
+40-60: trung niên
+60+: tuổi già
+
+2)tổng doanh thu theo tháng, năm, quý của từng category
+
+3) Biểu đồ tròn tỷ trọng giữa status: complete, received, canceled
+
+4) tỷ trọng đơn hàng có status canceled cao nhất thuộc category nào, giới tính, độ tuổi
+
+5) dựa theo giới tính(+ độ tuổi) thì họ mua hàng thuộc category nào
+
+6) tỷ trọng độ tuổi của khách hàng
+
+7) so sánh doanh thu với tháng trước, tuần trước
+
+
+
