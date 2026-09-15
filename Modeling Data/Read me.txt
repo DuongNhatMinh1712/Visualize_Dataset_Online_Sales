@@ -1,0 +1,17 @@
+-SK là khoá ảo, cột không có ý nghĩa thực, thường dùng để trường hợp đánh số bằng số nguyên tăng
+
+modeling 1 -> modeling 2: 
+- chỉnh lại PK của bảng Status Dimension và Payment Dimension thành SK mới đúng 
+- bỏ bảng Ref Num Dimension do chưa tìm được cách gán và đối chiếu ID với bảng Order Transaction Fact
+- bỏ khoá date_key do lý do tương tự vs ref_num, đổi order_date thành PK
+
+modeling 2 -> modeling 3:
+- Thêm lại bảng Ref Num Dimension, bố trí lại như ban đầu do đã tìm được cách để join bảng, giải quyết được gán và đối chiếu ID
+- các id ảo tạo thêm được gán là SK
+
+modeling 3 -> modeling 4:
+- Thêm cust_id vào bảng fact_item để bổ trợ cho việc làm dashboard
+
+modeling 3 -> modeling 4:
+- Bỏ liên kết giữa dim_customer và fact_item
+- Tạo liên kết dim_item và fact_transaction
